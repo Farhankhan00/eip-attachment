@@ -1,0 +1,29 @@
+{  
+    "version":0,
+    "id":"ecde968a-2205-f9ff-86de-48250b233ec4",
+    "detail-type":"EC2 Instance Launch Successful",
+    "source":"aws.autoscaling",
+    "account":"213722482034",
+    "time":"2018-11-14T04:01:12Z",
+    "region":"us-east-1",
+    "resources":[  
+      "arn:aws:autoscaling:us-east-1:213722482034:autoScalingGroup:b3701ece-807f-4d03-afe2-d6947e0c2023:autoScalingGroupName/webservers",
+      "arn:aws:ec2:us-east-1:213722482034:instance/i-0c0705a3c59b7de82"
+    ],
+    "detail":{  
+      "Description":"Launching a new EC2 instance: i-0c0705a3c59b7de82",
+      "Details":{  
+        "Subnet ID":"subnet-0bcff47fc4b1ae4bd",
+        "Availability Zone":"us-east-1b"
+      },
+      "EndTime":"2018-11-14T04:01:12.961Z",
+      "RequestId":"55659c41-833e-c4fe-6ce9-1985feba55ce",
+      "ActivityId":"55659c41-833e-c4fe-6ce9-1985feba55ce",
+      "Cause":"At 2018-11-14T04:00:15Z a user request update of AutoScalingGroup constraints to min: 1, max: 2, desired: 2 changing the desired capacity from 1 to 2. At 2018-11-14T04:00:37Z an instance was started in response to a difference between desired and actual capacity, increasing the capacity from 1 to 2.",
+      "AutoScalingGroupName":"webservers",
+      "StartTime":"2018-11-14T04:00:39.345Z",
+      "EC2InstanceId":"i-0c0705a3c59b7de82",
+      "StatusCode":"InProgress",
+      "StatusMessage":""
+    }
+  }
